@@ -12,7 +12,9 @@ func endApp() { //! DEFER FUNCTION
 	fmt.Println("aplikasi selesai")
 }
 
-//! RECOVER DI PASTIKAN KHARUS DI GUNAKAN DI DEFER FUNCTION
+/*
+! RECOVER DI PASTIKAN KHARUS DI GUNAKAN DI DEFER FUNCTION
+*/
 
 func runApp(error bool) {
 	defer endApp()
